@@ -18,7 +18,7 @@ Antes de proponer arquitectura, escribir código o modificar cualquier archivo, 
 
 - **Prohibición de Secretos:** Nunca escribir, mostrar ni confirmar claves de API, tokens, contraseñas o archivos `.env` en el código fuente. Verificar siempre que `.env` esté listado en `.gitignore`.
 - **Respeto al Alcance:** No generar código ni documentación para departamentos fuera del alcance definido en `company_choice.md` (Almacén, RR.HH. o Dirección Ejecutiva), salvo solicitud explícita del desarrollador.
-- **Control Humano (_Man-in-the-Loop_):** Ningún agente puede ejecutar `git push`, fusionar ramas (`merge`) ni borrar archivos estructurales (`briefing.md`, `company_choice.md`, `.devcontainer/`) sin confirmación expresa del desarrollador.
+- **Control Humano (_Man-in-the-Loop_):** Ningún agente puede ejecutar `git push`, fusionar ramas (`merge`) ni borrar archivos estructurales (`BRIEFING.md`, `company_choice.md`, `.devcontainer/`) sin confirmación expresa del desarrollador.
 - **Cero Suposiciones:** Si falta información sobre un endpoint de transportista (UPS, FedEx, MRW, SEUR, DHL) o regla de negocio, preguntar antes de inventar esquemas de datos.
 
 ---
