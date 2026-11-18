@@ -1,0 +1,14 @@
+{
+  "ticket_id": "TF-SUP-1731932400",
+  "priority": "HIGH",
+  "tracking_number": "1Z999AA10123456784",
+  "carrier": "UPS",
+  "customer_type": "B2C",
+  "customer_query": "Mi paquete lleva 4 días retenido en aduanas de Los Ángeles y necesito entregarlo hoy.",
+  "carrier_raw_status": {
+    "code": "DELAYED_CRITICAL",
+    "location": "Los Angeles, CA",
+    "timestamp": "2026-11-18T11:30:00Z"
+  },
+  "assigned_team": "Customer_Experience_LA"
+}
